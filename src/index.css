@@ -1,0 +1,20 @@
+:root{
+  --Cor1: #03071eff;
+  --Cor2: #2b2d42ff;
+  --Cor3: #8d99aeff;
+  --Cor4: #edf2f4ff;
+  --Cor5: #ef233cff;
+  --Cor6: #d90429ff;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root, body, html{
+  min-height: 100vh;
+  background-color: var(--Cor2);
+}
