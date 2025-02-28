@@ -1,5 +1,15 @@
 .container-home{
-    background-color:var(--Cor3);
+    background-image: url('123.jpg');
+   
     min-height: 100vh;
+    align-items: center;
     
+}
+
+.alguma-coisa{
+    background-color: var(--Cor5);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }

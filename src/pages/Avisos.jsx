@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import "./Avisos.css"
 
 function Avisos() {
 
@@ -7,6 +8,8 @@ function Avisos() {
     <div>
         <Navbar />
         <h1>Avisos: </h1>
+          <div className='avisos'>
+
 
         <ul>
             <li>Celulares não pode.</li>
@@ -14,6 +17,8 @@ function Avisos() {
             <li>Ficar vendo foto do menino Ney? na na na...</li>
             <li>Componente começa com letra maiuscula!!!</li>
         </ul>
+
+          </div>
     </div>
   )
 }

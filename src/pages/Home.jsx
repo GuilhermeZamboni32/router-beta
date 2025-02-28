@@ -7,7 +7,14 @@ function Home() {
   return (
     <div className='container-home'>
         <Navbar />
-        <p>home</p>
+        
+        <div className='alguma-coisa'>
+          <h1>Bem vindo a Home</h1>
+
+          <p>Aqui vamos fazer teste de Roueter do projeto da S.A</p>
+        
+
+        </div>
        
     </div>
   )
